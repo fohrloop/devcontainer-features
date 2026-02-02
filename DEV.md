@@ -1,5 +1,15 @@
 # Developer Guide
 
+## Running tests
+
+Prerequisite: The [devcontainer](https://github.com/devcontainers/cli) CLI. This tool is installed in the devcontainer included in this repository.
+
+In the repo root, run:
+
+```
+devcontainer features test .
+```
+
 ## Publishing
 
 See [devcontainers/feature-starter](https://github.com/devcontainers/feature-starter) for the detailed instructions, but in short:
