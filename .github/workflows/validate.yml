@@ -1,3 +1,7 @@
+# Copyright (c) 2022 Microsoft Corporation
+# Licensed under the MIT License
+# Copied from: https://github.com/devcontainers/feature-starter
+
 name: "Validate devcontainer-feature.json files"
 on:
   workflow_dispatch:

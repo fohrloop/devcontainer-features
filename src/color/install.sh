@@ -1,4 +1,8 @@
 #!/bin/sh
+# Copyright (c) 2022 Microsoft Corporation
+# Licensed under the MIT License
+# Copied from: https://github.com/devcontainers/feature-starter
+
 set -e
 
 echo "Activating feature 'color'"

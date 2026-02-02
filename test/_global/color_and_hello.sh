@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Copyright (c) 2022 Microsoft Corporation
+# Licensed under the MIT License
+# Copied from: https://github.com/devcontainers/feature-starter
+
 # The 'test/_global' folder is a special test folder that is not tied to a single feature.
 #
 # This test file is executed against a running container constructed
