@@ -224,3 +224,5 @@ echo "Include Cloudflare IPs: ${CLOUDFLAREIPS}"
 echo "Include AWS IPs: ${AWSIPS}"
 echo "Anthropic IPs: ${ANTHROPIC_IPS_LIST:-"(none)"}"
 echo "Verbose mode: ${VERBOSE}"
+
+echo '123 testing 123'
