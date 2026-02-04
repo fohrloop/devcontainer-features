@@ -350,4 +350,4 @@ fi
 
 
 
-echo 'testing 123. Version 0.0.5'
+echo 'testing 123. Version 0.0.6!'
