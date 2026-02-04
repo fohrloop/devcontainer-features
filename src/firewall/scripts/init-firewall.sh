@@ -347,3 +347,7 @@ if [ "$VERBOSE_MODE" = "true" ]; then
     echo $! > /var/run/firewall-watcher.pid
     echo "Firewall watcher started (PID: $!)"
 fi
+
+
+
+echo 'testing 123. Version 0.0.5'
