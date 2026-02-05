@@ -1,0 +1,21 @@
+{
+    "name": "codex",
+    "id": "codex",
+    "version": "1.1.0",
+    "description": "Codex CLI + Codex extension + persistent config",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "openai.chatgpt"
+            ]
+        }
+    },
+    "mounts": [
+        {
+            "source": "codex-config-${devcontainerId}",
+            "target": "/codex-config",
+            "type": "volume"
+        }
+    ],
+    "postStartCommand": "/usr/local/bin/link-codex-config"
+}
